@@ -1,0 +1,99 @@
+/* Temel stil resetlemesi */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ana div stillemesi */
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Başlık stillemesi */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form stillemesi */
+.form {
+    margin-bottom: 20px;
+}
+
+.inputText {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buton stillemesi */
+.btnDiv {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Bilgi kutusu stillemesi */
+.info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#seher {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Ümumi Deyer stillemesi */
+.umumiDeyer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.istilik {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa-circle {
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+/* Hava Veziyyeti stillemesi */
+#havaVeziyyeti {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Hissedilen stillemesi */
+.his {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#hissedilen {
+    font-size: 18px;
+    font-weight: bold;
+}

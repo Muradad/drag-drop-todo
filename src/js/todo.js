@@ -6,7 +6,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   const value = input.value;
 
-  if (!value) return;
+  // if (!value) return;
 
   const newTask = document.createElement("p");
   newTask.classList.add("task");
@@ -25,3 +25,8 @@ form.addEventListener("submit", (e) => {
 
   input.value = "";
 });
+
+
+
+
+
